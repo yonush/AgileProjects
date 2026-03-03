@@ -1,6 +1,27 @@
 # Demonstration Git repository for ITPM5.240 Agile Projects  
 
-## Empty Repo
+
+## 1. Create GitHub repo with gh
+
+1. Download and install gh from https://cli.github.com/
+2. Enter _gh repo create_ and follow the instructions.
+3. Check the authentication status _gh auth status_
+4. Login using _gh auth login_.
+   If you encounter authentication issues then follow the steps on authentication below before attempting to upload a repository.
+
+### 1.1 Using the web interface
+
+browse to https://github.com and create it using the web interface
+**New repo**
+![repo](images/github_new_repo.png)
+
+**Empty repo**
+![repo](images/github_empty_repo.png)
+
+**Repo preloaded with readme and licence**
+![repo](images/github_repo_preload.png)
+
+## 2. Empty Repo with no files
 
 Instructions if the repository was empty:
 
@@ -16,7 +37,7 @@ git push -u origin main
 ```
 Refer to the Tokens below for authentication.
 
-## Existing local repo
+## 2. Existing local repo with files
 
 Instructions for an existing local repository:
 
@@ -25,6 +46,7 @@ git remote add origin https://github.com/yonush/AgileProjects.git
 git branch -M main
 git push -u origin main
 ```
+
 
 ## Authentication
 
@@ -75,3 +97,10 @@ gh auth logout
     Click Generate token.
     Copy the token to your clipboard. 
 	NOTE: You won't be able to see this token again, so store it securely.
+
+## Resources
+- [GitHub CLI](https://cli.github.com/)
+- [GIT CLI](https://git-scm.com/install/windows)
+- [PMBOK](https://pmbok.guide/)
+- [A collection of useful .gitignore templates](https://github.com/github/gitignore)
+- [Learn Git Branching](https://learngitbranching.js.org/)	
