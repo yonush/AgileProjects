@@ -1,11 +1,6 @@
 # Demonstration Git repository for ITPM5.240 Agile Projects  
 
-<<<<<<< HEAD
-
-modified
-=======
-edited.
->>>>>>> refs/remotes/origin/main
+this is a mod
 ## 1. Create GitHub repo with gh
 
 1. Download and install gh from https://cli.github.com/
