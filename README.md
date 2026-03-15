@@ -1,10 +1,5 @@
 # Demonstration Git repository for ITPM5.240 Agile Projects  
 
-<<<<<<< HEAD
-lets do an edit
-one useless edit
-=======
->>>>>>> 0ab7f82 (another random edit)
 ## 1. Create GitHub repo with gh
 
 1. Download and install gh from https://cli.github.com/
